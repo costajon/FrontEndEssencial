@@ -1,0 +1,222 @@
+body {
+    margin: 10%;
+    background: url("../images/fundo.png") fixed no-repeat;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+/* Estilo container principal */
+
+#principal {
+    
+    background-color: #e5e6e6;
+    border-radius: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+
+/* Estilo tudo quecontemno header */
+
+#circulo1 {
+    background: #f43f69;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+}
+
+#circulo2 {
+    background: #fcc852;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+
+}
+
+#circulo3 {
+    background: #169682;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    display: inline-block;
+
+}
+
+#secao-cabecalho {
+    
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+
+.linha-secao-cabecalho{
+    
+    margin: 0;
+    padding-top: 0.5%;
+    
+}
+
+.cl-secao-cabecalho{
+    background-color: rgb(255, 255, 255);
+    height: 35px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.cl2-secao-cabecalho{
+    background-color: white;
+    height: 35px;
+}
+
+
+
+
+/* Estilo container que abrange o nav, main e o aside */
+
+
+#container {
+    padding-top: 1%;
+    margin-top: 1%;
+    margin-left: 1%;
+    margin-right: 1%;
+    background-color: white;
+    border-bottom-left-radius: 3%;
+    border-bottom-right-radius: 3%;
+}
+
+/* Estilos contem no nav*/
+
+
+#secao-menu {
+   margin: 0;
+   margin-top: 1%;
+   
+}
+
+.linha-secao-menu {
+    margin: 0;
+    margin-top: 1%;
+    
+    
+}
+
+.cl-secao-menu{
+    background-color: #e5e6e6;
+    margin-right: 1%;
+    height: 45px;
+    
+}
+
+.cl1-secao-menu{
+    background-color: #03a3d5;
+    margin-left: 10%;
+    margin-right: 1%;
+    height: 45px;
+}
+
+.cl5-secao-menu{
+    background-color: #e5e6e6;
+    margin-right: 10%;
+    height: 45px;
+}
+
+
+
+/* Estilos contem main*/
+
+    /* Estilos coluna main*/
+
+.secao-principal{
+    width: 82%;
+    height: 1000px;
+    margin: 0 auto;
+    margin-top: 3%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+     
+    
+    
+}
+
+
+
+.cl-extra{
+    display: flex;
+    flex-direction: column;
+    width: 8%;
+}
+
+
+.cl-secao-principal{
+    display: flex;
+    flex-direction: column;
+    width: 67%;
+}
+
+.cl-secao-propaganda{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 25%;
+
+}
+
+.ln1-secao-principal{
+    width: 100%;
+    height: 41%;
+    background-color: #e5e6e6;
+}
+
+.menu-secao-principal{
+    margin: 0;
+    margin-top: 8%;
+}
+
+.cl1-menu-secao-principal, .cl2-menu-secao-principal, .cl3-menu-secao-principal, .cl4-menu-secao-principal {
+    background-color: #e5e6e6;
+    height: 35px;
+    margin-left: 1%;
+}
+
+.cl4-menu-secao-principal{
+    margin-right: 1%;
+}
+
+.barrinha-secao-principal{
+    height: 3%;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 3%;
+    background-color: #e5e6e6;
+}
+
+.barrinha1-principal{
+    margin-top: 5%;
+}
+
+
+
+.ln-secao-propaganda{
+    width: 100%;
+    background-color: #e5e6e6;
+}
+
+.ln1-secao-propaganda, .ln2-secao-propaganda, .ln3-secao-propaganda, .ln4-secao-propaganda{
+    height: 17%;
+}
+
+.barrinha-secao-propaganda{
+    height: 3%;
+    margin-top: 5%;
+    margin-bottom: 10%;
+    background-color: #e5e6e6;
+}
+
+
